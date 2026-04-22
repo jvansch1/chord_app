@@ -1,0 +1,16 @@
+[project]
+name = "chord-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyrefly>=0.61.1",
+    "pytest>=9.0.3",
+]
+
+[tool.pyrefly]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+
