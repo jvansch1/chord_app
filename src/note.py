@@ -4,8 +4,8 @@ from constants import ACCIDENTAL, NATURAL, NOTE_NAMES, VALID_CHORD_NAMES, SHARP,
 
 class Note:
     def __init__(self, name: str, accidental: ACCIDENTAL):
-        self._name = name.upper()
-        self._accidental = accidental
+        self.name = name.upper()
+        self.accidental = accidental
 
 
     @staticmethod
@@ -14,16 +14,6 @@ class Note:
         accidental = random.choice(VALID_CHORD_NAMES[chord_letter])
 
         return Note(chord_letter, accidental)
-
-
-    @property
-    def name(self):
-        return self._name
-
-
-    @property
-    def accidental(self):
-        return self._accidental
 
 
     def __str__(self):
