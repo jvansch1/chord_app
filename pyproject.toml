@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "fastapi[standard]>=0.136.1",
     "pyrefly>=0.61.1",
     "pytest>=9.0.3",
 ]
