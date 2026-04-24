@@ -4,8 +4,6 @@ from note import Note
 from answer_parser import parse_answer
 from chord import Chord
 
-from smtplib import SMTP
-
     
         
 def check_answer(chord: Chord, notes: list[Note]):
