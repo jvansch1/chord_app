@@ -4,3 +4,5 @@ Figure out how to more programtically handle chord, it would be very tedious to 
 ## Running tests
 `uv run pytest`
 
+## Run FastAPI server
+`uv run fastapi dev src/api/chord.py`

@@ -53,9 +53,6 @@ class Chord:
         current_index = 0
         letter_name_index = 0
 
-        print(f"all chord notes: {all_chord_notes}")
-        print()
-
         for index, enharmonic_equivalents in enumerate(CHROMATIC_SCALE):
             if self._root in enharmonic_equivalents:
                 current_index = index
